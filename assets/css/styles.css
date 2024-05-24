@@ -652,4 +652,25 @@ body {
 .reason-why .container .inner-wrap .inner-banner .inner-content .inner-button a:hover{
     background: #FD5634;
 }
+
+@media (max-width: 991.98px){
+    .reason-why .container .inner-wrap{
+        flex-direction: column;
+    }
+
+    .reason-why .container .inner-wrap .inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reason-why .container .inner-wrap .inner-banner{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reason-why .container .inner-wrap .inner-banner .inner-image-2{
+        right: -8%;
+    }
+}
 /* END REASON WHY  */
