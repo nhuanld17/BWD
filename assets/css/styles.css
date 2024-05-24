@@ -119,9 +119,9 @@ body {
 
 .navigation .container .inner-wrap-a .inner-contact .inner-icon {
     margin-right: 10px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
-    background: #dddddd;
+    background: #FAF7F3;
     cursor: pointer;
 }
 
@@ -205,6 +205,24 @@ body {
 @media (max-width: 991.98px) {
     .navigation .container .inner-wrap-b .donate{
         display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navigation .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navigation .container .inner-wrap-a .inner-contact{
+        display: none;
+    }
+
+    .navigation hr{
+        display: none;
+    }
+
+    .navigation .container .inner-wrap-a .inner-bar i {
+        padding-right: 20px;
     }
 }
 
