@@ -195,6 +195,7 @@ body {
     .navigation .container .inner-wrap-a .inner-bar{
         display: block;
         font-size: 35px;
+        padding: 17px 0;
     }
 
     .navigation .container .inner-wrap-a .inner-bar i {
